@@ -37,6 +37,7 @@ namespace FourInARow
 
         private string Check(int x)
         {
+            //We know if we divide integer, the result will always be whole integer
             int second = x / 4;
             int first = second - 1;
             int third = second + 1;
